@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  background : lightgrey;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.card {
+  float: left;
+  background:white;
+  margin: 8px;
+  box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 grey;
+  width: 100%;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.graphy {
+  float: left;
+  margin: 8px;
+  border-top-left-radius: 25px;
+  box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 grey;
+  width: auto ;
+}
+.card-header {
+  background: teal;
+  color: white;
+  text-transform: uppercase;
+  border-top-left-radius: 25px;
+}
+
+.graph-title{
+  background: teal;
+  color: white;
+  border-top-left-radius: 25px;
+}
+
+h3 {
+  font-weight: normal;
+  padding : 8px;
+  margin: 0;
+  color : black;
+}
+
+.card-content {
+  padding: 8px;
+}
+.data-card{
+  float: left;
+  min-width: 80%;
+}
+
+.dash-dropdown{
+  float : left;
+  width : 80%;
+}
+
+.dropdown-label {
+  float : left;
+  margin-top: 8px;
+  height : 20px;
+  margin-right : 8px;
+}
+
+.clearfix::after{
+  content:"";
+  clear: both;
+  display: table;
+}
+
+.block-double {
+  float: left;
+  width: 350px;
+}
